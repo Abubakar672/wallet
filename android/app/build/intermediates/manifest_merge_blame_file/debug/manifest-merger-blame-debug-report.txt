@@ -1,0 +1,93 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.samplewc5"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:2:3-64
+12-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/abubakarmujahid/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/abubakarmujahid/.gradle/caches/transforms-3/b2ec3232205e095c09543a31d56ae642/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->[:react-native-fs] /Users/abubakarmujahid/Desktop/native/sample-wc-rn/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+14-->[:react-native-fs] /Users/abubakarmujahid/Desktop/native/sample-wc-rn/node_modules/react-native-fs/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+15
+16    <application
+16-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:3:3-16:17
+17        android:name="com.samplewc5.MainApplication"
+17-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:3:16-47
+18        android:allowBackup="false"
+18-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:3:162-189
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] /Users/abubakarmujahid/.gradle/caches/transforms-3/f382564408e8806e991bcb7c984abfd6/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:3:81-115
+22        android:label="@string/app_name"
+22-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:3:48-80
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:3:116-161
+24        android:theme="@style/AppTheme"
+24-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:3:190-221
+25        android:usesCleartextTraffic="true" >
+25-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/debug/AndroidManifest.xml:8:9-44
+26        <activity
+26-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/debug/AndroidManifest.xml:11:9-111
+27            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+27-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/debug/AndroidManifest.xml:11:19-83
+28            android:exported="false" />
+28-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/debug/AndroidManifest.xml:11:84-108
+29        <activity
+29-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:4:5-15:16
+30            android:name="com.samplewc5.MainActivity"
+30-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:4:15-43
+31            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+31-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:4:77-186
+32            android:exported="true"
+32-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:4:262-285
+33            android:label="@string/app_name"
+33-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:4:44-76
+34            android:launchMode="singleTask"
+34-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:4:187-218
+35            android:windowSoftInputMode="adjustResize" >
+35-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:4:219-261
+36            <intent-filter>
+36-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:5:7-8:23
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:6:9-60
+37-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:6:17-58
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:7:9-68
+39-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:7:19-66
+40            </intent-filter>
+41            <intent-filter>
+41-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:9:7-14:23
+42                <action android:name="android.intent.action.VIEW" />
+42-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:10:9-60
+42-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:10:17-58
+43
+44                <category android:name="android.intent.category.DEFAULT" />
+44-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:11:9-67
+44-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:11:19-65
+45                <category android:name="android.intent.category.BROWSABLE" />
+45-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:12:9-69
+45-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:12:19-67
+46
+47                <data android:scheme="myapp" />
+47-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:13:9-39
+47-->/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app/src/main/AndroidManifest.xml:13:15-37
+48            </intent-filter>
+49        </activity>
+50    </application>
+51
+52</manifest>

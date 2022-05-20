@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/Users/abubakarmujahid/Desktop/native/sample-wc-rn/android/app"
+    name=":app"
+    type="APP"
+    maven="sampleWC5:app:"
+    gradle="7.0.4"
+    buildFolder="build"
+    bootClassPath="/Users/abubakarmujahid/Library/Android/sdk/platforms/android-31/android.jar:/Users/abubakarmujahid/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-31"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

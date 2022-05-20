@@ -1,0 +1,6 @@
+module Pods_sampleWC5_sampleWC5Tests {
+  umbrella header "Pods-sampleWC5-sampleWC5Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
